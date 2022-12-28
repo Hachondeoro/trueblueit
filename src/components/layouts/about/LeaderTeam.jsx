@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class LeaderTeam extends Component {
   constructor(props) {
@@ -8,57 +8,21 @@ class LeaderTeam extends Component {
       lead: [
         {
           id: 1,
-          srcimg: "assets/img/team/member-1-370x359.jpg",
-          name: "Aaron Stanley",
-          position: "Project Manager",
+          srcimg: 'assets/img/team/member-1-370x359.jpg',
+          name: 'Rifat Mahmud',
+          position: 'Project Manager',
         },
         {
           id: 2,
-          srcimg: "assets/img/team/member-2-370x359.jpg",
-          name: "David Gunsul",
-          position: "President",
+          srcimg: 'assets/img/team/member-2-370x359.jpg',
+          name: 'Rifat Mahmud',
+          position: 'President',
         },
         {
           id: 3,
-          srcimg: "assets/img/team/member-3-370x359.jpg",
-          name: "Richard Johnson",
-          position: "Safety Director",
-        },
-        {
-          id: 4,
-          srcimg: "assets/img/team/member-1-370x359.jpg",
-          name: "Aaron Stanley",
-          position: "Project Manager",
-        },
-        {
-          id: 5,
-          srcimg: "assets/img/team/member-2-370x359.jpg",
-          name: "David Gunsul",
-          position: "President",
-        },
-        {
-          id: 6,
-          srcimg: "assets/img/team/member-3-370x359.jpg",
-          name: "Richard Johnson",
-          position: "Safety Director",
-        },
-        {
-          id: 7,
-          srcimg: "assets/img/team/member-1-370x359.jpg",
-          name: "Aaron Stanley",
-          position: "Project Manager",
-        },
-        {
-          id: 8,
-          srcimg: "assets/img/team/member-2-370x359.jpg",
-          name: "David Gunsul",
-          position: "President",
-        },
-        {
-          id: 9,
-          srcimg: "assets/img/team/member-3-370x359.jpg",
-          name: "Richard Johnson",
-          position: "Safety Director",
+          srcimg: 'assets/img/team/member-3-370x359.jpg',
+          name: 'Rifat Mahmud',
+          position: 'Safety Director',
         },
       ],
     };
@@ -88,9 +52,8 @@ class LeaderTeam extends Component {
                   </div>
                 </div>
                 <p className="sub-heading font-weight-400 text-808 max-width-680">
-                  With us you will have the peace of mind knowing that your
-                  dream home project is in the hands of a licensed fully insured
-                  building company.
+                  With us you will have the peace of mind knowing that your project is in
+                  the hands of an IT veteran company.
                 </p>
               </div>
               <div
@@ -108,11 +71,8 @@ class LeaderTeam extends Component {
                 data-auto="true"
               >
                 <div className="owl-carousel owl-theme">
-                  {this.state.lead.map((data) => (
-                    <div
-                      className="themesflat-team style-1 align-center clearfix"
-                      key={data.id}
-                    >
+                  {this.state.lead.map(data => (
+                    <div className="themesflat-team style-1 align-center clearfix" key={data.id}>
                       <div className="team-item">
                         <div className="inner">
                           <div className="thumb data-effect-item">

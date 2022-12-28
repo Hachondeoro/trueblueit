@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 class ServiceSlide extends Component {
   render() {
     return (
@@ -26,10 +26,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-1-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-1-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -37,8 +34,8 @@ class ServiceSlide extends Component {
                             <Link to="#">DESIGN-BUILD</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            We develop and understand project expectations and
-                            then manage those needs with a design [...]
+                            We develop and understand project expectations and then manage those
+                            needs with a design [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -51,10 +48,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-2-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-2-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -62,8 +56,8 @@ class ServiceSlide extends Component {
                             <Link to="#">CONSTRUCTION MANAGEMENT</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            We work closely with architects to understand the
-                            project, and ultimately develop a targeted [...]
+                            We work closely with architects to understand the project, and
+                            ultimately develop a targeted [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -76,10 +70,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-3-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-3-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -87,8 +78,8 @@ class ServiceSlide extends Component {
                             <Link to="#">METAL BUILDING SERVICES</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            In the past decade alone, we have completed more
-                            than 5 million square feet of metal [...]
+                            In the past decade alone, we have completed more than 5 million square
+                            feet of metal [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -101,10 +92,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-1-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-1-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -112,8 +100,8 @@ class ServiceSlide extends Component {
                             <Link to="#">DESIGN-BUILD</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            We develop and understand project expectations and
-                            then manage those needs with a design [...]
+                            We develop and understand project expectations and then manage those
+                            needs with a design [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -126,10 +114,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-2-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-2-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -137,8 +122,8 @@ class ServiceSlide extends Component {
                             <Link to="#">CONSTRUCTION MANAGEMENT</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            We work closely with architects to understand the
-                            project, and ultimately develop a targeted [...]
+                            We work closely with architects to understand the project, and
+                            ultimately develop a targeted [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -151,10 +136,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-3-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-3-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -162,8 +144,8 @@ class ServiceSlide extends Component {
                             <Link to="#">METAL BUILDING SERVICES</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            In the past decade alone, we have completed more
-                            than 5 million square feet of metal [...]
+                            In the past decade alone, we have completed more than 5 million square
+                            feet of metal [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -193,10 +175,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-4-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-4-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -204,8 +183,8 @@ class ServiceSlide extends Component {
                             <Link to="#">METAL BUILDING SERVICES</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            In the past decade alone, we have completed more
-                            than 5 million square feet of metal building [...]
+                            In the past decade alone, we have completed more than 5 million square
+                            feet of metal building [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -218,10 +197,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-5-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-5-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -229,8 +205,8 @@ class ServiceSlide extends Component {
                             <Link to="#">PRECONSTRUCTION SERVICES</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            Autora Construction Services provides the right
-                            resources and expertise to evaluate concepts [...]
+                            Autora Construction Services provides the right resources and expertise
+                            to evaluate concepts [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -243,10 +219,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-6-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-6-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -254,8 +227,8 @@ class ServiceSlide extends Component {
                             <Link to="#">CONCRETE STRUCTURES</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            We employs a talented team of industry leading
-                            professionals capable of self-performing [...]
+                            We employs a talented team of industry leading professionals capable of
+                            self-performing [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -268,10 +241,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-4-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-4-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -279,8 +249,8 @@ class ServiceSlide extends Component {
                             <Link to="#">METAL BUILDING SERVICES</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            In the past decade alone, we have completed more
-                            than 5 million square feet of metal building [...]
+                            In the past decade alone, we have completed more than 5 million square
+                            feet of metal building [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -293,10 +263,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-5-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-5-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -304,8 +271,8 @@ class ServiceSlide extends Component {
                             <Link to="#">PRECONSTRUCTION SERVICES</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            Autora Construction Services provides the right
-                            resources and expertise to evaluate concepts [...]
+                            Autora Construction Services provides the right resources and expertise
+                            to evaluate concepts [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>
@@ -318,10 +285,7 @@ class ServiceSlide extends Component {
                     <div className="image-box-item">
                       <div className="inner">
                         <div className="thumb data-effect-item">
-                          <img
-                            src="assets/img/imagebox/image-box-6-370x215.jpg"
-                            alt="altimage"
-                          />
+                          <img src="assets/img/imagebox/image-box-6-370x215.jpg" alt="altimage" />
                           <div className="overlay-effect bg-color-accent" />
                         </div>
                         <div className="text-wrap">
@@ -329,8 +293,8 @@ class ServiceSlide extends Component {
                             <Link to="#">CONCRETE STRUCTURES</Link>
                           </h5>
                           <p className="letter-spacing-01">
-                            We employs a talented team of industry leading
-                            professionals capable of self-performing [...]
+                            We employs a talented team of industry leading professionals capable of
+                            self-performing [...]
                           </p>
                           <div className="elm-readmore">
                             <Link to="page-services-detail.html">DETAILS</Link>

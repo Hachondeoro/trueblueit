@@ -45,21 +45,17 @@ class Overview extends Component {
         },
         {
           id: 2,
-          text: "Are you looking for a way to help yourself to become a confident public speaker? Look no further than True Blue IT Services' Pitch Training Program! Our program is designed to help students/ employees of all ages develop the skills they need to confidently present their ideas and stories in an engaging and impactful way. With our experienced instructors and interactive virtual environment, your child will be ready to take on any challenge! Sign up today and watch your confidence soar! Who is this program for: ",
+          text: "Are you a student or professional looking to improve your presentation skills? Look no further than True Blue IT Services' Pitch Training Program! Our program is tailored to help you develop the confidence and knowledge needed to make a great impression in any setting. With our comprehensive training, you'll learn how to craft the perfect pitch, create powerful visuals, and deliver your message with impact. Take your career to the next level today with True Blue IT Services! Who is this program for:",
           item: [
             {
               idx: 1,
               content:
-                'Learning institutions committed to graduating students with superior communication skills.',
+                'Professionals: Pitch training is designed for professionals who need to hone their communication and presentation skills. This includes entrepreneurs, salespeople, marketers, and business leaders who need to craft a compelling message and present that message effectively in order to succeed in their professional endeavors. The program is also beneficial for those who want to learn how to negotiate effectively and close deals.',
             },
             {
               idx: 2,
               content:
-                'Companies seeking a competitive advantage by developing more effective salespeople and inspirational leaders',
-            },
-            {
-              idx: 3,
-              content: 'Anyone who has something to say.',
+                'Students: Pitch training program provided by True blue IT services is suitable for students. The program is designed to help students develop their communication and presentation skills, which are essential for success in the professional world. The program provides students with the opportunity to practice and refine their pitching skills in a safe environment, gain valuable insights from experienced instructors, and build relationships with industry professionals.',
             },
           ],
         },

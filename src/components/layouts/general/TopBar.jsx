@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class TopBar extends Component {
   render() {
@@ -10,10 +10,11 @@ class TopBar extends Component {
             <div className="top-bar-content">
               <div className="inner">
                 <span className="address content">
-                  4946 Marmora Road, Central New
+                  CDC, Level 16/19 Smith St, Darwin City NT 0800
                 </span>
-                <span className="phone content">+61 3 8376 6284</span>
-                <span className="time content">Mon-Sat: 8am - 6pm</span>
+                <span className="phone content">(08) 8963 5600</span>
+                <span className="phone content">0422 611 304</span>
+
               </div>
             </div>
             <div className="top-bar-socials">
@@ -22,15 +23,6 @@ class TopBar extends Component {
                 <span className="icons">
                   <Link to="#">
                     <i className="fa fa-facebook" />
-                  </Link>
-                  <Link to="#">
-                    <i className="fa fa-twitter" />
-                  </Link>
-                  <Link to="#">
-                    <i className="fa fa-pinterest-p" />
-                  </Link>
-                  <Link to="#">
-                    <i className="fa fa-rss" />
                   </Link>
                 </span>
               </div>

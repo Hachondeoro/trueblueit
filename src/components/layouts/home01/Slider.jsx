@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import { Link, withRouter } from "react-router-dom";
-import bannerhome1 from "./data_banner";
-import bannerhome2 from "../home02/data_banner";
+import React, { Component } from 'react';
+import { Link, withRouter } from 'react-router-dom';
+import bannerhome1 from './data_banner';
+import bannerhome2 from '../home02/data_banner';
 
 class Slider extends Component {
   render() {
     const { location } = this.props;
     const mainContent = () => {
-      if (location.pathname === "/") {
+      if (location.pathname === '/') {
         return (
           <>
-            {bannerhome1.map((data) => (
+            {bannerhome1.map(data => (
               <li data-transition="random" key={data.id}>
                 <img
                   src={data.srcimg}
@@ -106,7 +106,13 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  <Link to="#" className="themesflat-button bg-accent big">
+                  <Link
+                    to="/contact"
+                    onClick={() => {
+                      window.location.href = '/contact';
+                    }}
+                    className="themesflat-button bg-accent big"
+                  >
                     <span>GET IN TOUCH</span>
                   </Link>
                 </div>
@@ -114,10 +120,10 @@ class Slider extends Component {
             ))}
           </>
         );
-      } else if (location.pathname === "/home-02") {
+      } else if (location.pathname === '/home-02') {
         return (
           <>
-            {bannerhome2.map((data) => (
+            {bannerhome2.map(data => (
               <li data-transition="random" key={data.id}>
                 <img
                   src={data.srcimg}
@@ -213,7 +219,13 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  <Link to="#" className="themesflat-button bg-accent big">
+                  <Link
+                    to="/contact"
+                    onClick={() => {
+                      window.location.href = '/contact';
+                    }}
+                    className="themesflat-button bg-accent big"
+                  >
                     <span>GET IN TOUCH</span>
                   </Link>
                 </div>

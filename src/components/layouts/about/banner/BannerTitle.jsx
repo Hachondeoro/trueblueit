@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 class BannerTitle extends Component {
   render() {
     return (
@@ -9,7 +9,13 @@ class BannerTitle extends Component {
             <div id="breadcrumbs">
               <div className="breadcrumbs-inner">
                 <div className="breadcrumb-trail">
-                  <Link to="home.html" className="trail-begin">
+                  <Link
+                    to="/"
+                    onClick={() => {
+                      window.location.href = "/";
+                    }}
+                    className="trail-begin"
+                  >
                     Home
                   </Link>
                   <span className="sep">{this.props.data.border}</span>
@@ -28,9 +34,7 @@ class BannerTitle extends Component {
               </div>
             </div>
             <div className="featured-title-heading-wrap">
-              <h1 className="feautured-title-heading">
-                {this.props.data.heading}
-              </h1>
+              <h1 className="feautured-title-heading">{this.props.data.heading}</h1>
             </div>
           </div>
         </div>

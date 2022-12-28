@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import BannerTitle from "../layouts/about/banner/BannerTitle";
-import { Header, Footer, TopBar, BottomBar } from "../layouts/general/index";
-import { ServiceSlide } from "../layouts/services/index";
+import React, { Component } from 'react';
+import BannerTitle from '../layouts/about/banner/BannerTitle';
+import { Header, Footer, TopBar, BottomBar } from '../layouts/general/index';
+import { ServiceSlide } from '../layouts/services/index';
 class Services extends Component {
   constructor(props) {
     super(props);
@@ -9,18 +9,18 @@ class Services extends Component {
       headers: [
         {
           id: 1,
-          logoweb: "assets/img/trueblue-logo.png",
-          names: "Services",
+          logoweb: 'assets/img/trueblue-logo.png',
+          names: 'Services',
         },
       ],
       banners: [
         {
           id: 1,
-          links: "",
-          titlelink: "",
-          border: "",
-          name: "Services",
-          heading: "All Services",
+          links: '',
+          titlelink: '',
+          border: '',
+          name: 'Services',
+          heading: 'All Services',
         },
       ],
     };
@@ -36,7 +36,7 @@ class Services extends Component {
                 <Header data={data} key={idx} />
               ))}
             </div>
-            {this.state.banners.map((data) => (
+            {this.state.banners.map(data => (
               <BannerTitle key={data.id} data={data} />
             ))}
             <div id="main-content" className="site-main clearfix">

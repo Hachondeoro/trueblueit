@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import BannerTitle from "../layouts/about/banner/BannerTitle";
-import { FormContact, Information } from "../layouts/contact";
-import { Header, Footer, TopBar, BottomBar } from "../layouts/general/index";
+import React, { Component } from 'react';
+import BannerTitle from '../layouts/about/banner/BannerTitle';
+import { FormContact, Information } from '../layouts/contact';
+import { Header, Footer, TopBar, BottomBar } from '../layouts/general/index';
 
 class Contact01 extends Component {
   constructor(props) {
@@ -10,18 +10,18 @@ class Contact01 extends Component {
       headers: [
         {
           id: 1,
-          logoweb: "assets/img/trueblue-logo.png",
-          names: "Contact",
+          logoweb: '/assets/img/trueblue-logo.png',
+          names: 'Contact',
         },
       ],
       banners: [
         {
           id: 1,
-          links: "",
-          titlelink: "",
-          border: "",
-          name: "Contact",
-          heading: "Contact Us",
+          links: '',
+          titlelink: '',
+          border: '',
+          name: 'Contact',
+          heading: 'Contact Us',
         },
       ],
     };
@@ -37,7 +37,7 @@ class Contact01 extends Component {
                 <Header data={data} key={idx} />
               ))}
             </div>
-            {this.state.banners.map((data) => (
+            {this.state.banners.map(data => (
               <BannerTitle key={data.id} data={data} />
             ))}
             <div id="main-content" className="site-main clearfix">

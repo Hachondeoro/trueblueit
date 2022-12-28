@@ -117,7 +117,13 @@ class Home01 extends Component {
                                 data-smobile={35}
                               />
                               <div className="elm-button text-center">
-                                <Link to="#" className="themesflat-button bg-accent">
+                                <Link
+                                  to="/about-us"
+                                  onClick={() => {
+                                    window.location.href = '/about-us';
+                                  }}
+                                  className="themesflat-button bg-accent"
+                                >
                                   ABOUT US
                                 </Link>
                               </div>
@@ -132,6 +138,11 @@ class Home01 extends Component {
                         </div>
                       </div>
                       <About />
+                      <div
+                        className="row-services"
+                        id="services"
+                        style={{ marginBottom: '100px' }}
+                      ></div>
                       <div className="row-services">
                         <div className="container">
                           <div className="row">
@@ -158,11 +169,6 @@ class Home01 extends Component {
                                 data-mobile={35}
                                 data-smobile={35}
                               />
-                              <div className="elm-button text-center">
-                                <Link to="#" className="themesflat-button bg-accent">
-                                  ALL SERVICES
-                                </Link>
-                              </div>
                               <div
                                 className="themesflat-spacer clearfix"
                                 data-desktop={73}

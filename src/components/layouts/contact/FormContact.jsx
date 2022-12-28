@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class FormContact extends Component {
   render() {
@@ -8,9 +8,8 @@ class FormContact extends Component {
           <h2 className="heading">CONTACT US</h2>
           <div className="sep has-width w80 accent-bg clearfix" />
           <p className="sub-heading">
-            Are you interested in finding out how Autora Construction Services
-            can make your project. For more information on our services please
-            contact us.
+            Are you interested in finding out how True Blue IT Services can help your company? For
+            more information on our services please contact us.
           </p>
         </div>
         <div
@@ -20,18 +19,14 @@ class FormContact extends Component {
           data-smobile={35}
         />
         <div className="themesflat-contact-form style-2 clearfix">
-          <form
-            action="#"
-            method="post"
-            className="form-submit contact-form wpcf7-form"
-          >
+          <form action="#" method="post" className="form-submit contact-form wpcf7-form">
             <span className="wpcf7-form-control-wrap your-name">
               <input
                 type="text"
                 tabIndex={1}
                 id="name"
                 name="name"
-                defaultValue={""}
+                defaultValue={''}
                 className="wpcf7-form-control"
                 placeholder="Name*"
                 required
@@ -43,7 +38,7 @@ class FormContact extends Component {
                 tabIndex={2}
                 id="phone"
                 name="phone"
-                defaultValue={""}
+                defaultValue={''}
                 className="wpcf7-form-control"
                 placeholder="Phone"
               />
@@ -54,7 +49,7 @@ class FormContact extends Component {
                 tabIndex={3}
                 id="email"
                 name="email"
-                defaultValue={""}
+                defaultValue={''}
                 className="wpcf7-form-control"
                 placeholder="Your Email*"
                 required
@@ -66,7 +61,7 @@ class FormContact extends Component {
                 tabIndex={4}
                 id="subject"
                 name="subject"
-                defaultValue={""}
+                defaultValue={''}
                 className="wpcf7-form-control"
                 placeholder="Subject"
               />
@@ -80,7 +75,7 @@ class FormContact extends Component {
                 className="wpcf7-form-control wpcf7-textarea"
                 placeholder="Message*"
                 required
-                defaultValue={""}
+                defaultValue={''}
               />
             </span>
             <span className="wrap-submit">

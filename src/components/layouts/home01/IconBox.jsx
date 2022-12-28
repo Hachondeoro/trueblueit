@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class IconBox extends Component {
   constructor(props) {
@@ -8,21 +8,21 @@ class IconBox extends Component {
       iconbox: [
         {
           id: 1,
-          icon: "autora-icon-quality",
-          title: "TEAM",
-          text: "Our team is knowledgeable in all major ITtechnologies and works closely with our clients todevelop the most efficient and cost-effectivesolutions for their IT needs.",
+          icon: 'autora-icon-quality',
+          title: 'TEAM',
+          text: 'Our team is knowledgeable in all major ITtechnologies and works closely with our clients todevelop the most efficient and cost-effectivesolutions for their IT needs.',
         },
         {
           id: 2,
-          icon: "autora-icon-time",
-          title: "OFFERINGS",
-          text: "We pride ourselves inoffering the most comprehensive IT services toour clients.",
+          icon: 'autora-icon-time',
+          title: 'OUR QUALITY POLICY',
+          text: 'True Blue IT service strives to provide service to its customers with emphasis on continuous improvement, pro-active approach, courtesy, timely response, and accuracy, with a goal of achieving total customer satisfaction.',
         },
         {
           id: 3,
-          icon: "autora-icon-author",
-          title: "MISSION",
-          text: "Our mission is to ensure that ourclients have the latest and most securetechnologies at their disposal.",
+          icon: 'autora-icon-author',
+          title: 'OUR MISSION',
+          text: 'To consistently create value for our stakeholders, by providing solutions which enableour customers to achieve excellence and sustainable competitive edge',
         },
       ],
     };
@@ -31,7 +31,7 @@ class IconBox extends Component {
   render() {
     return (
       <div className="row">
-        {this.state.iconbox.map((data) => (
+        {this.state.iconbox.map(data => (
           <div className="col-md-4" key={data.id}>
             <div
               className="themesflat-spacer clearfix"

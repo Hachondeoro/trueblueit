@@ -326,8 +326,8 @@
       $(".themesflat-map").gmap3({
         map: {
           options: {
-            zoom: 10,
-            center: [51.1946026, 0.8140602, 14.5],
+            zoom: 15,
+            center: [-12.464796, 130.8404884, 14.5],
             mapTypeId: "Autora",
             mapTypeControlOptions: {
               mapTypeIds: [
@@ -357,7 +357,7 @@
         styledmaptype: {
           id: "Autora",
           options: {
-            name: "Autora",
+            name: "True Blue IT",
           },
           styles: [
             {

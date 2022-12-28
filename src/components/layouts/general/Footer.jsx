@@ -23,7 +23,7 @@ class Footer extends Component {
                       <div className="inner">
                         <span className="fa fa-map-marker" />
                         <span className="text">
-                          Charles Darwin Centre, Level 16/19 Smith St
+                          Charles Darwin Centre, Level 16/19 Smith St{'  '}
                           <span className="sl">Darwin City NT 0800</span>
                         </span>
                       </div>
@@ -31,13 +31,21 @@ class Footer extends Component {
                     <li>
                       <div className="inner">
                         <span className="fa fa-phone" />
-                        <span className="text">CALL US : (+61) 422 611 304</span>
+                        <span className="text">Mobile : (+61) 422 611 304</span>
+                        <br></br>
+                        <span className="text">Phone : (08) 8963 5600</span>
                       </div>
                     </li>
                     <li className="margin-top-7">
                       <div className="inner">
                         <span className=" font-size-14 fa fa-envelope" />
                         <span className="text">info@trueblueit.com.au</span>
+                      </div>
+                    </li>
+                    <li className="margin-top-7">
+                      <div className="inner">
+                        <span className=" font-size-14 fa fa-briefcase" />
+                        <span className="text">ABN: 95664282893</span>
                       </div>
                     </li>
                   </ul>
@@ -107,29 +115,29 @@ class Footer extends Component {
               {/* /.widget_lastest */}
             </div>
             {/* /.col */}
-            <div className="col span_1_of_3">
-              <div
-                className="themesflat-spacer clearfix"
-                data-desktop={0}
-                data-mobile={35}
-                data-smobile={35}
-              />
-              <div className="widget widget_tags">
-                <h2 className="widget-title margin-bottom-30">
-                  <span>TAGS</span>
-                </h2>
-                <div className="tags-list">
-                  <Link to="#">Building</Link>
-                  <Link to="#">Smart House</Link>
-                  <Link to="#">Costruction</Link>
-                  <Link to="#">Villa</Link>
-                  <Link to="#">Residential</Link>
-                  <Link to="#">Interior</Link>
-                  <Link to="#">Resort</Link>
-                  <Link to="#">Commercial</Link>
-                </div>
-              </div>
-            </div>
+            {/*<div className="col span_1_of_3">*/}
+            {/*  <div*/}
+            {/*    className="themesflat-spacer clearfix"*/}
+            {/*    data-desktop={0}*/}
+            {/*    data-mobile={35}*/}
+            {/*    data-smobile={35}*/}
+            {/*  />*/}
+            {/*  <div className="widget widget_tags">*/}
+            {/*    <h2 className="widget-title margin-bottom-30">*/}
+            {/*      <span>TAGS</span>*/}
+            {/*    </h2>*/}
+            {/*    <div className="tags-list">*/}
+            {/*      <Link to="#">Building</Link>*/}
+            {/*      <Link to="#">Smart House</Link>*/}
+            {/*      <Link to="#">Costruction</Link>*/}
+            {/*      <Link to="#">Villa</Link>*/}
+            {/*      <Link to="#">Residential</Link>*/}
+            {/*      <Link to="#">Interior</Link>*/}
+            {/*      <Link to="#">Resort</Link>*/}
+            {/*      <Link to="#">Commercial</Link>*/}
+            {/*    </div>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
       </footer>

@@ -19,27 +19,12 @@ class BottomBar extends Component {
         {
           id: 3,
           name: 'Services',
-          links: '/services',
+          links: '/#services',
         },
         {
           id: 4,
-          name: 'Projects',
-          links: '/project',
-        },
-        {
-          id: 5,
-          name: 'Page',
-          links: '/page-testimonial',
-        },
-        {
-          id: 6,
-          name: 'Blog',
-          links: '/blog',
-        },
-        {
-          id: 7,
           name: 'Contact',
-          links: '/contact-01',
+          links: '/contact',
         },
       ],
     };

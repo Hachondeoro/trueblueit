@@ -169,6 +169,7 @@
 }
 .themesflat-headings .sub-heading {
   color: #666;
+  white-space: pre-line;
 }
 .themesflat-headings.text-center .sub-heading {
   text-align: center;
