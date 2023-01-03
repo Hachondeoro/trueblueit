@@ -107,8 +107,61 @@ class AboutUs extends Component {
                               />
                             </div>
                           </div>
+                          <div className="row">
+                            <div className="col-6">
+                              <iframe
+                                // allow="autoplay"
+                                muted
+                                allowFullScreen
+                                style={{ border: 'none' }}
+                                src="https://www.youtube.com/embed/gvHUhq6twFc?controls=0"
+                                width="640"
+                                height="360"
+                              ></iframe>
+                            </div>
+                            <div className="col-6">
+                              <iframe
+                                // allow="autoplay"
+                                muted
+                                allowFullScreen
+                                style={{ border: 'none' }}
+                                src="https://www.youtube.com/embed/lEGCnhqT8b8?controls=0"
+                                width="640"
+                                height="360"
+                              ></iframe>
+                            </div>
+                            <div className="col-6">
+                              <iframe
+                                // allow="autoplay"
+                                muted
+                                allowFullScreen
+                                style={{ border: 'none' }}
+                                src="https://www.youtube.com/embed/0XKAoc6WT6k?controls=0"
+                                width="640"
+                                height="360"
+                              ></iframe>
+                            </div>
+                            <div className="col-6">
+                              <iframe
+                                // allow="autoplay"
+                                muted
+                                allowFullScreen
+                                style={{ border: 'none' }}
+                                src="https://www.youtube.com/embed/ZNPuPYxZET4?controls=0"
+                                width="640"
+                                height="360"
+                              ></iframe>
+                            </div>
+                          </div>
+                          <div
+                            className="themesflat-spacer clearfix"
+                            data-desktop={73}
+                            data-mobile={60}
+                            data-smobile={60}
+                          />
                         </div>
                       </div>
+
                       <About />
                       <Counter />
                       {this.state.headingchoose2.map(data => (

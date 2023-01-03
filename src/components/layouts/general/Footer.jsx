@@ -48,6 +48,30 @@ class Footer extends Component {
                         <span className="text">ABN: 95664282893</span>
                       </div>
                     </li>
+                    <li>
+                      <span className="icons">
+                        <a
+                          href="https://www.facebook.com/trueblueits"
+                          data-interception="off"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="fa fa-facebook" style={{ color: '#0272CE' }} />
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span className="icons">
+                        <a
+                          href="https://www.linkedin.com/company/true-blue-it-services/"
+                          data-interception="off"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="fa fa-linkedin" style={{ color: '#0272CE' }} />
+                        </a>
+                      </span>
+                    </li>
                   </ul>
                 </div>
               </div>

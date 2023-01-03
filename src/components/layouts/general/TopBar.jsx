@@ -14,16 +14,30 @@ class TopBar extends Component {
                 </span>
                 <span className="phone content">(08) 8963 5600</span>
                 <span className="phone content">0422 611 304</span>
-
               </div>
             </div>
             <div className="top-bar-socials">
               <div className="inner">
                 <span className="text">Follow us:</span>
                 <span className="icons">
-                  <Link to="#">
+                  <a
+                    href="https://www.facebook.com/trueblueits"
+                    data-interception="off"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fa fa-facebook" />
-                  </Link>
+                  </a>
+                </span>
+                <span className="icons">
+                  <a
+                    href="https://www.linkedin.com/company/true-blue-it-services/"
+                    data-interception="off"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa fa-linkedin" />
+                  </a>
                 </span>
               </div>
             </div>

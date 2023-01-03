@@ -66,11 +66,11 @@ class Home01 extends Component {
 
   render() {
     return (
-      <div className="header-fixed page no-sidebar header-style-2 topbar-style-2 menu-has-search">
+      <div className="header-fixed page no-sidebar header-style-2 topbar-style-1 menu-has-search">
         <div id="wrapper" className="animsition">
           <div id="page" className="clearfix">
             <div id="site-header-wrap">
-              {/*<TopBar />*/}
+              <TopBar />
               {this.state.headers.map((data, idx) => (
                 <Header data={data} key={idx} />
               ))}
