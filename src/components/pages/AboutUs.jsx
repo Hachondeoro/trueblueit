@@ -163,7 +163,7 @@ class AboutUs extends Component {
                       </div>
 
                       <About />
-                      <Counter />
+                      {/*<Counter />*/}
                       {this.state.headingchoose2.map(data => (
                         <TitleHeading data={data} key={data.id} />
                       ))}

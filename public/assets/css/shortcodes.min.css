@@ -2313,6 +2313,11 @@
   position: relative;
   z-index: 1;
 }
+.themesflat-team img {
+  height: 350px;
+  object-fit: cover;
+  z-index: 1;
+}
 .themesflat-team .socials {
   margin: 0px;
 }

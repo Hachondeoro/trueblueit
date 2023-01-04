@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import BannerTitle from '../layouts/about/banner/BannerTitle';
-import { Header, Footer, TopBar, BottomBar } from '../layouts/general/index';
-import { ServiceSlide } from '../layouts/services/index';
+import { BottomBar, Footer, Header, TopBar } from '../layouts/general/index';
+import { request } from '../../datoCMS/request.ts';
+import parse from 'html-react-parser';
+import { Service, ServicesBox, TitleHeading } from '../../components/layouts/home01';
+
 class Services extends Component {
   constructor(props) {
     super(props);
@@ -23,8 +26,31 @@ class Services extends Component {
           heading: 'All Services',
         },
       ],
+      servicebox: [
+        {
+          id: 1,
+          classnames: 'heading font-size-30',
+          title: 'True Blue IT Services:',
+          classtext: 'sub-heading font-weight-400',
+          text: 'We provide a wide range of IT services to our clients.',
+        },
+      ],
     };
   }
+  componentDidMount() {
+    request(
+      `servicehome{
+        title
+        content
+      }`,
+    ).then(data => {
+      console.log(data);
+      this.setState({
+        data: data.servicehome,
+      });
+    });
+  }
+
   render() {
     return (
       <div className="header-fixed page no-sidebar header-style-2 topbar-style-1 menu-has-search">
@@ -44,7 +70,59 @@ class Services extends Component {
                 <div id="site-content" className="site-content clearfix">
                   <div id="inner-content" className="inner-content-wrap">
                     <div className="page-content">
-                      <ServiceSlide />
+                      <div className="container">
+                        <div>
+                          {this.state.data ? (
+                            <>
+                              <div className="themesflat-headings style-1 text-center clearfix">
+                                <h1>{this.state.data.title}</h1>
+                              </div>
+                              {parse(this.state.data.content)}
+                            </>
+                          ) : null}
+                          <div className="row-iconbox">
+                            <div className="container">
+                              <div className="row">
+                                <div className="col-md-12">
+                                  <div
+                                    className="themesflat-spacer clearfix"
+                                    data-desktop={61}
+                                    data-mobile={60}
+                                    data-smobile={60}
+                                  />
+                                  {this.state.servicebox.map(data => (
+                                    <TitleHeading data={data} key={data.id} />
+                                  ))}
+                                  <div
+                                    className="themesflat-spacer clearfix"
+                                    data-desktop={57}
+                                    data-mobile={35}
+                                    data-smobile={35}
+                                  />
+
+                                  <div className="row">
+                                    <div className="col-md-12">
+                                      <div
+                                        className="themesflat-spacer clearfix"
+                                        data-desktop={72}
+                                        data-mobile={60}
+                                        data-smobile={60}
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <Service />
+                                <div
+                                  className="themesflat-spacer clearfix"
+                                  data-desktop={72}
+                                  data-mobile={60}
+                                  data-smobile={60}
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

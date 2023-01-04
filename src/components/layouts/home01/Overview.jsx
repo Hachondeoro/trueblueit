@@ -79,7 +79,7 @@ class Overview extends Component {
 
   render() {
     return (
-      <div className="col-md-6">
+      <div className="col-md-12">
         <div
           className="themesflat-content-box clearfix"
           data-margin="0 18px 0 0"
@@ -111,7 +111,7 @@ class Overview extends Component {
               {this.state.tab.map(data => (
                 <div className="tab-content" key={data.id}>
                   <div className="item-content">
-                    <p>{data.text}</p>
+                    <p style={{fontSize:"16px"}}>{data.text}</p>
                     {data.item.map(index => (
                       <div
                         className="themesflat-list has-icon style-1 icon-left ofset-padding-32 clearfix"

@@ -223,40 +223,40 @@ class Home01 extends Component {
                       {/*    </div>*/}
                       {/*  </div>*/}
                       {/*</div>*/}
-                      <div className="row-iconbox">
-                        <div className="container">
-                          <div className="row">
-                            <div className="col-md-12">
-                              <div
-                                className="themesflat-spacer clearfix"
-                                data-desktop={61}
-                                data-mobile={60}
-                                data-smobile={60}
-                              />
-                              {this.state.servicebox.map(data => (
-                                <TitleHeading data={data} key={data.id} />
-                              ))}
-                              <div
-                                className="themesflat-spacer clearfix"
-                                data-desktop={57}
-                                data-mobile={35}
-                                data-smobile={35}
-                              />
-                              <ServicesBox />
-                              <div className="row">
-                                <div className="col-md-12">
-                                  <div
-                                    className="themesflat-spacer clearfix"
-                                    data-desktop={72}
-                                    data-mobile={60}
-                                    data-smobile={60}
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      {/*<div className="row-iconbox">*/}
+                      {/*  <div className="container">*/}
+                      {/*    <div className="row">*/}
+                      {/*      <div className="col-md-12">*/}
+                      {/*        <div*/}
+                      {/*          className="themesflat-spacer clearfix"*/}
+                      {/*          data-desktop={61}*/}
+                      {/*          data-mobile={60}*/}
+                      {/*          data-smobile={60}*/}
+                      {/*        />*/}
+                      {/*        {this.state.servicebox.map(data => (*/}
+                      {/*          <TitleHeading data={data} key={data.id} />*/}
+                      {/*        ))}*/}
+                      {/*        <div*/}
+                      {/*          className="themesflat-spacer clearfix"*/}
+                      {/*          data-desktop={57}*/}
+                      {/*          data-mobile={35}*/}
+                      {/*          data-smobile={35}*/}
+                      {/*        />*/}
+                      {/*        <ServicesBox />*/}
+                      {/*        <div className="row">*/}
+                      {/*          <div className="col-md-12">*/}
+                      {/*            <div*/}
+                      {/*              className="themesflat-spacer clearfix"*/}
+                      {/*              data-desktop={72}*/}
+                      {/*              data-mobile={60}*/}
+                      {/*              data-smobile={60}*/}
+                      {/*            />*/}
+                      {/*          </div>*/}
+                      {/*        </div>*/}
+                      {/*      </div>*/}
+                      {/*    </div>*/}
+                      {/*  </div>*/}
+                      {/*</div>*/}
                       {/*<Testimonial />*/}
                       {/*<div className="row-quote bg-row-1">*/}
                       {/*  <div className="container">*/}
@@ -311,7 +311,7 @@ class Home01 extends Component {
                           </div>
                           <div className="row">
                             <Overview />
-                            <Faq />
+                            {/*<Faq />*/}
                           </div>
                         </div>
                       </div>
