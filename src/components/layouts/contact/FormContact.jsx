@@ -1,5 +1,5 @@
 import React, { Component, useRef } from 'react';
-import * as emailjs from "emailjs-com";
+import * as emailjs from 'emailjs-com';
 
 const FormContact = () => {
   const form = useRef();
@@ -16,6 +16,8 @@ const FormContact = () => {
           console.log(error.text);
         },
       );
+
+    document.getElementById('contactform').reset();
   };
 
   return (
@@ -35,7 +37,12 @@ const FormContact = () => {
         data-smobile={35}
       />
       <div className="themesflat-contact-form style-2 clearfix">
-        <form ref={form} onSubmit={sendEmail} id="contactform" className="form-submit contact-form wpcf7-form">
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          id="contactform"
+          className="form-submit contact-form wpcf7-form"
+        >
           <span className="wpcf7-form-control-wrap your-name">
             <input
               type="text"
