@@ -18,10 +18,10 @@ class PitchTraining extends Component {
       banners: [
         {
           id: 1,
-          links: '',
-          titlelink: '',
+          links: '/services',
+          titlelink: 'Services',
           border: '',
-          name: 'Services',
+          name: '',
           heading: 'All Services',
         },
       ],

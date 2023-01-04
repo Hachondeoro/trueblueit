@@ -62,16 +62,19 @@ class Service extends Component {
               className="themesflat-image-box col-12 col-sm-4 style-1 has-icon icon-right w65 clearfix"
               key={data.id}
             >
-              <Link to={data.path}>
+              <Link
+                to={data.path}
+                onClick={() => {
+                  window.location.href = data.path;
+                }}
+              >
                 <div className="image-box-item">
                   <div className="inner">
                     <div className="thumb data-effect-item">
                       <img
                         src={data.srcimg}
                         alt="altimage"
-                        style={{ objectFit: 'cover', height:"300px" }}
-
-
+                        style={{ objectFit: 'cover', height: '300px' }}
                       />
                       <div className="overlay-effect bg-color-accent" />
                     </div>

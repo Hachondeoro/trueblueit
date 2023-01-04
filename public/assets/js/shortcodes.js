@@ -580,7 +580,6 @@
     flatTabs();
     flatAccordions();
     flatProgressBar();
-    googleMap();
     flatCounter();
     flatIsotope();
     swClick();
