@@ -31,7 +31,7 @@ class Home01 extends Component {
           id: 1,
           classnames: 'heading',
           title: 'True Blue IT Services',
-          text: 'True Blue IT Services is a managed IT servicesprovider that offers a wide range of IT services tobusinesses. We offer IT support, cloudcomputing, data backup and recovery, managedhosting, business continuity, and managedsecurity services. We provide our clients withpeace of mind knowing that their IT infrastructureis in the hands of a reliable and experienced team.',
+          text: 'True Blue IT Services is a managed IT services provider that offers a wide range of IT services to businesses. We offer IT support, cloudcomputing, data backup and recovery, managedhosting, business continuity, and managedsecurity services. We provide our clients withpeace of mind knowing that their IT infrastructureis in the hands of a reliable and experienced team.',
           classtext: 'sub-heading',
         },
       ],
