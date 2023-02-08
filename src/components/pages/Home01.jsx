@@ -40,7 +40,7 @@ class Home01 extends Component {
           id: 1,
           classnames: 'heading',
           title: 'Services',
-          text: 'IT Support: We provide 24/7 IT support services to our customers. Our services include technical support, troubleshooting, system maintenance, software installation, and hardware repairs. We also provide remote support, on-site support, and emergency support. Our team of experienced IT professionals is available to assist you with any IT-related issue. We also provide training and consulting services to help you improve your IT infrastructure. We strive to provide the best customer service and satisfaction to our customers.',
+          text: 'We provide 24/7 IT support services to our customers. Our services include technical support, troubleshooting, system maintenance, software installation, and hardware repairs. We also provide remote support, on-site support, and emergency support. Our team of experienced IT professionals is available to assist you with any IT-related issue. We also provide training and consulting services to help you improve your IT infrastructure. We strive to provide the best customer service and satisfaction to our customers.',
           classtext: 'sub-heading',
         },
       ],
