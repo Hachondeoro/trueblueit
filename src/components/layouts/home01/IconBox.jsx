@@ -10,7 +10,7 @@ class IconBox extends Component {
           id: 1,
           icon: 'autora-icon-quality',
           title: 'TEAM',
-          text: 'Our team is knowledgeable in all major ITtechnologies and works closely with our clients todevelop the most efficient and cost-effectivesolutions for their IT needs.',
+          text: 'Our team is knowledgeable in all aspects of technologies and works closely with our clients to develop the most efficient and cost-effective solutions for their IT needs.',
         },
         {
           id: 2,
