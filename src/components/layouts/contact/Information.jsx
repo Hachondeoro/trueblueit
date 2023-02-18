@@ -36,7 +36,7 @@ class Information extends Component {
                   <li className="clearfix">
                     <div className="inner">
                       <span className="fa fa-phone" />
-                      <span className="text">PHONE: (08) 8963 5600</span>
+                      <span className="text">PHONE: (08) 8963 5764</span>
                     </div>
                   </li>
                   <li className="clearfix">
