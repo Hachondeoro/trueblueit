@@ -52,17 +52,16 @@ class About extends Component {
                   <h2 className="heading">HOW CAN WE HELP:</h2>
                   <div className="sep has-width w80 accent-bg margin-top-11 clearfix" />
                   <p className="sub-heading margin-top-30">
-                    Just like previous versions of Microsoft Office, Microsoft 365 gives you access
-                    to all the Microsoft programs you love, such as Excel, Word, Outlook and
+                    Similar to other Microsoft Office applications, Microsoft 365 gives you access
+                    to all the Microsoft programs such as Excel, Word, Outlook and
                     PowerPoint – except you can now access them online.
                   </p>
                   <p className="sub-heading margin-top-30">
-                    With Microsoft 365 you can send emails, update and share documents, and even set
-                    up and attend meetings from anywhere you’re connected to the Internet on a wide
-                    range of devices.
+                    With Microsoft 365 you can send, receive and manage emails, update and share documents, and even set
+                    up and attend meetings from anywhere as long as you are connected to the Internet.
                   </p>
                   <p className="sub-heading margin-top-30">
-                    But more than that, Microsoft 365 allows you to store and manage your documents
+                    Additionally, Microsoft 365 allows you to store and manage your documents
                     in the cloud. It gives you the ability to share your documents, and collaborate
                     online in real-time.
                   </p>
