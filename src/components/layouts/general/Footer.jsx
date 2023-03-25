@@ -33,7 +33,7 @@ class Footer extends Component {
                         <span className="fa fa-phone" />
                         <span className="text">Mobile : (+61) 422 611 304</span>
                         <br></br>
-                        <span className="text">Phone : (08) 8963 5600</span>
+                        <span className="text">Phone : (08) 8963 5764</span>
                       </div>
                     </li>
                     <li className="margin-top-7">

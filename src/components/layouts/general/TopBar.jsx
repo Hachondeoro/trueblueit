@@ -12,7 +12,7 @@ class TopBar extends Component {
                 <span className="address content">
                   CDC, Level 16/19 Smith St, Darwin City NT 0800
                 </span>
-                <span className="phone content">(08) 8963 5600</span>
+                <span className="phone content">(08) 8963 5764</span>
                 <span className="phone content">0422 611 304</span>
               </div>
             </div>

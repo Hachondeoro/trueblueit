@@ -21,6 +21,7 @@ import CloudServices from './services/CloudServices';
 import Microsoft365 from './services/Microsoft365';
 import PitchTraining from './services/PitchTraining';
 import WebDesign from './services/WebDesign';
+import Starlink from "./services/Starlink";
 
 const routes = [
   { path: '/', component: Home01 },
@@ -36,6 +37,7 @@ const routes = [
   { path: '/services/cloudservices', component: CloudServices },
   { path: '/services/microsoft365', component: Microsoft365 },
   { path: '/services/pitchtraining', component: PitchTraining },
+  { path: '/services/starlink', component: Starlink },
   { path: '/services/webdesign', component: WebDesign },
 
   { path: '/project', component: Projects },

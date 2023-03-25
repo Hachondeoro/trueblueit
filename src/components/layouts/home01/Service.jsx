@@ -31,10 +31,10 @@ class Service extends Component {
           path: '/services/microsoft365',
         },
         {
-          id: 5,
-          srcimg: 'assets/img/services/pitch-training.png',
-          heading: 'Pitch Training',
-          path: '/services/pitchtraining',
+          id: 4,
+          srcimg: 'assets/img/services/starlink.jpg',
+          heading: 'STARLINK Installation',
+          path: '/services/starlink',
         },
         {
           id: 6,
