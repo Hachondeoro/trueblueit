@@ -92,8 +92,8 @@ class Home01 extends Component {
                               <div
                                 className="themesflat-spacer clearfix"
                                 data-desktop={60}
-                                data-mobile={60}
-                                data-smobile={60}
+                                data-mobile={120}
+                                data-smobile={120}
                               />
                               {this.state.headingchoose.map(data => (
                                 <TitleHeading data={data} key={data.id} />

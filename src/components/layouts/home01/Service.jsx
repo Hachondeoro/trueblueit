@@ -8,37 +8,37 @@ class Service extends Component {
       slidecard: [
         {
           id: 1,
-          srcimg: 'assets/img/services/it-support.jpg',
+          srcimg: 'assets/img/services/IT Support.png',
           heading: 'IT Support',
           path: '/services/itsupport',
         },
         {
           id: 2,
-          srcimg: 'assets/img/services/cyber-security.jpg',
+          srcimg: 'assets/img/services/Cyber Security.png',
           heading: 'Cyber Security',
           path: '/services/cybersecurity',
         },
         {
           id: 3,
-          srcimg: 'assets/img/services/cloud-services.png',
+          srcimg: 'assets/img/services/Cloud services.png',
           heading: 'Cloud Services',
           path: '/services/cloudservices',
         },
         {
           id: 4,
-          srcimg: 'assets/img/services/microsoft365.jpg',
+          srcimg: 'assets/img/services/m365.jpg',
           heading: 'Microsoft 365',
           path: '/services/microsoft365',
         },
         {
           id: 4,
-          srcimg: 'assets/img/services/starlink.jpg',
+          srcimg: 'assets/img/services/Starlink-satellites.jpg',
           heading: 'STARLINK Installation',
           path: '/services/starlink',
         },
         {
           id: 6,
-          srcimg: 'assets/img/services/web-design.jpg',
+          srcimg: 'assets/img/services/Website design.png',
           heading: 'Web Design',
           path: '/services/webdesign',
         },
@@ -57,10 +57,10 @@ class Service extends Component {
         data-auto="false"
       >
         <div className="row">
-          {this.state.slidecard.map(data => (
+          {this.state.slidecard.map((data, index) => (
             <div
               className="themesflat-image-box col-12 col-sm-4 style-1 has-icon icon-right w65 clearfix"
-              key={data.id}
+              key={`${data.id} - ${index}`}
             >
               <Link
                 to={data.path}
@@ -74,7 +74,7 @@ class Service extends Component {
                       <img
                         src={data.srcimg}
                         alt="altimage"
-                        style={{ objectFit: 'cover', height: '300px' }}
+                        style={{ objectFit: 'cover', height: '300px', width:"100%" }}
                       />
                       <div className="overlay-effect bg-color-accent" />
                     </div>
