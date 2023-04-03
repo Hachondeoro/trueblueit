@@ -26,7 +26,7 @@ class Service extends Component {
         },
         {
           id: 4,
-          srcimg: 'assets/img/services/m365.jpg',
+          srcimg: 'assets/img/services/Microsoft_365.png',
           heading: 'Microsoft 365',
           path: '/services/microsoft365',
         },
