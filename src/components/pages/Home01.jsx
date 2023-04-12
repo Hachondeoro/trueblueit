@@ -14,6 +14,8 @@ import {
   Partner,
 } from '../layouts/home01/index';
 import { Header, Footer, TopBar, BottomBar } from '../layouts/general/index';
+import { request } from '../../datoCMS/request';
+import parse from 'html-react-parser';
 
 class Home01 extends Component {
   constructor(props) {
@@ -62,6 +64,28 @@ class Home01 extends Component {
         },
       ],
     };
+  }
+
+  componentDidMount() {
+    request(
+      `allPartners {
+        image {
+          url
+        }
+        website
+      }
+      allClients {
+        website
+        image {
+          url
+        }
+      }`,
+    ).then(data => {
+      // console.log(data);
+      this.setState({
+        data: data,
+      });
+    });
   }
 
   render() {
@@ -315,6 +339,42 @@ class Home01 extends Component {
                           </div>
                         </div>
                       </div>
+                      {this.state.data ? (
+                        <>
+                          <div className="themesflat-headings style-1 text-center clearfix">
+                            <h1>Partners</h1>
+                          </div>
+                          {console.log(this.state.data.allPartners)}
+                          <div className="container">
+                            {this.state.data.allPartners.map((data, idx) => (
+                              <a href={data.website} target="_blank" key={`${data.image.url}`}>
+                                <img
+                                  src={data.image.url}
+                                  alt={data.image.alt}
+                                  width="100%"
+                                  className="col-6 col-md-4 col-lg-3 p-4"
+                                />
+                              </a>
+                            ))}
+                          </div>
+                          <div className="themesflat-headings style-1 text-center clearfix">
+                            <h1>Clients</h1>
+                          </div>
+                          {console.log(this.state.data.allClients)}
+                          <div className="container">
+                            {this.state.data.allClients.map((data, idx) => (
+                              <a href={data.website} target="_blank" key={`${data.image.url}`}>
+                                <img
+                                  src={data.image.url}
+                                  alt={data.image.alt}
+                                  width="100%"
+                                  className="col-6 col-md-4 col-lg-3 p-4"
+                                />
+                              </a>
+                            ))}
+                          </div>
+                        </>
+                      ) : null}
                     </div>
                   </div>
                 </div>

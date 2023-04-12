@@ -88,7 +88,7 @@ class Services extends Component {
                                     className="themesflat-spacer clearfix"
                                     data-desktop={61}
                                     data-mobile={60}
-                                    data-smobile={60}
+                                    Partners                                    data-smobile={60}
                                   />
                                   {this.state.servicebox.map(data => (
                                     <TitleHeading data={data} key={data.id} />
