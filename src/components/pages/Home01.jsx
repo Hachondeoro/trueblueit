@@ -344,8 +344,7 @@ class Home01 extends Component {
                           <div className="themesflat-headings style-1 text-center clearfix">
                             <h1>Partners</h1>
                           </div>
-                          {console.log(this.state.data.allPartners)}
-                          <div className="container">
+                          <div className="container" style={{marginBottom:"6em"}}>
                             {this.state.data.allPartners.map((data, idx) => (
                               <a href={data.website} target="_blank" key={`${data.image.url}`}>
                                 <img
@@ -360,7 +359,6 @@ class Home01 extends Component {
                           <div className="themesflat-headings style-1 text-center clearfix">
                             <h1>Clients</h1>
                           </div>
-                          {console.log(this.state.data.allClients)}
                           <div className="container">
                             {this.state.data.allClients.map((data, idx) => (
                               <a href={data.website} target="_blank" key={`${data.image.url}`}>
